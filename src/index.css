@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  
+  /* Luxury / Prestige Palette */
+  --color-gold-50: #fdfcfb;     /* Beautiful light luxury ivory canvas */
+  --color-gold-100: #f5f2ed;    /* Warm stone / warm alabaster from premium design */
+  --color-gold-200: #ebdcd0;    /* Warm rose-colored bronze */
+  --color-gold-300: #d0beae;    /* Soft refined clay-champagne */
+  --color-gold-450: #a68d7a;    /* Signature warm bronze-gold */
+  --color-gold-500: #5a5a40;    /* Exquisite sage-bronze / antique olive gold */
+  --color-gold-600: #494932;    /* Stately dark olive gold */
+  --color-gold-700: #343423;    /* Royal deepest bronze */
+  --color-forest-900: #1a1a1a;  /* Clean charcoal ink-black */
+  --color-forest-950: #0d0d0d;  /* Deep prestige pristine midnight */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-gold-50);
+  color: var(--color-forest-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphic custom properties - optimized for Prestige Luxury */
+.glass-effect {
+  background: rgba(253, 252, 251, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(166, 141, 122, 0.15);
+}
+
+.glass-effect-dark {
+  background: rgba(26, 26, 26, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(166, 141, 122, 0.22);
+}
+
+/* Elegant border offsets from the design mock */
+.luxury-border {
+  border-color: rgba(26, 26, 26, 0.08);
+}
+
+/* Custom layout lines */
+.coord-section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgba(26, 26, 26, 0.08);
+}
+
+/* Smooth Masonry styling */
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 24px;
+}
+

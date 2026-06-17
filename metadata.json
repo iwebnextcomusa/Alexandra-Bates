@@ -1,0 +1,6 @@
+{
+  "name": "Alexandra Bates Jewellery",
+  "description": "Handcrafted luxury artisan jewellery inspired by the mountains, forests, and lakes of Nelson, British Columbia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
